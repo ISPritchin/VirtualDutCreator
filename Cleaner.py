@@ -5,7 +5,7 @@ class Cleaner:
 
     @staticmethod
     def transform(calibration_table):
-        table = calibration_table.table
+        table = calibration_table.tables
         for i, col in enumerate(table.columns[1:], 1):
             table[col] = Cleaner.clean_series(table[col])
         return table.loc[~table.isna().iloc[:, 1:].all(axis=1), :]
