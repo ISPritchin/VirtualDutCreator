@@ -3,6 +3,7 @@ import unittest
 from TaskSystem import *
 from CalibrationTable import *
 
+
 class TestReadCalibrationTable(unittest.TestCase):
 
     def test_one_dut(self):

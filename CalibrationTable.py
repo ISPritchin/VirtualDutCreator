@@ -46,4 +46,3 @@ class CalibrationTable:
 
         for table in self.tables:
             check_table(table)
-

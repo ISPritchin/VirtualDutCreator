@@ -88,7 +88,6 @@ class VirtualDutCreator:
                     table = pd.concat([first_row, table], axis=0)
 
                 # вставка строки для хорошей апроксимации, если значения будут больше диапозона дута
-
                 if table["LITERS"].iloc[-1] != table["LITERS"].iloc[-2]:
                     last_row = table.iloc[-1:, :].copy()
                     last_row.iloc[0, 0] += 1

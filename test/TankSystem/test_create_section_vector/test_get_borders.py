@@ -18,14 +18,14 @@ class TestGetBorders(unittest.TestCase):
         ts = TankSystem(
             CalibrationTable(path)
         )
-        self.assertEqual(ts[0]._get_borders(), [])
+        self.assertEqual(ts[0]._get_borders(), [40])
 
     def test_two_duts_conf_2(self):
         path = "files/two_duts-conf_2.xlsx"
         ts = TankSystem(
             CalibrationTable(path)
         )
-        self.assertEqual(ts[0]._get_borders(), [])
+        self.assertEqual(ts[0]._get_borders(), [40])
 
     def test_two_duts_conf_3(self):
         path = "files/two_duts-conf_3.xlsx"
@@ -33,5 +33,3 @@ class TestGetBorders(unittest.TestCase):
             CalibrationTable(path)
         )
         self.assertEqual(ts[0]._get_borders(), [])
-
-

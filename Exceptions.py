@@ -20,6 +20,7 @@ class OpenFileException(Exception):
 
 class EmptyValueException(Exception):
     "Класс-исключение для проверки пустых значений в тарировочной таблице"
+
     def __init__(self, value):
         self.value = value
 
