@@ -34,10 +34,15 @@ class CalibrationTable:
         }
 
     def check_tables(self) -> None:
+        """
+        Проверяет таблицу на наличие ошибок, допущенных при вводе тарировочной таблицы
+        :return:
+        """
 
-        def check_table(table: pd.DataFrame) -> None:
+        def check_na(table: pd.DataFrame) -> None:
             """
-            Выполняет проверку на корректность введенных данных и отсутствие ошибок в тарировочной таблице
+            Проверяет таблицу на наличие пропусков
+            :return:
             """
             for column_name in table:
                 column = table[column_name]
@@ -45,4 +50,4 @@ class CalibrationTable:
                     raise EmptyValueException(f"Колонка {column_name} содержит пропущенные значения")
 
         for table in self.tables:
-            check_table(table)
+            check_na(table)

@@ -20,19 +20,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0bd8f40-0784-4271-a5e5-b66856bceca2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/Tank/test_get_virtual_duts/test_get_virtual_fuel_sensors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/VirtualDutCreator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/VirtualDutCreator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VirtualFuelLevelSensor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Tank/test_get_formula/files/test_one_border_1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Tank/test_get_formula/files/test_one_border_2.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Tank/test_get_formula/files/test_one_border_3.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Tank/test_get_formula/files/test_one_border_4.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Tank/test_get_formula/files/test_two_border_1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Tank/test_get_formula/files/test_two_border_2.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Tank/test_get_formula/files/test_two_border_3.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Tank/test_get_formula/test_get_formula.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Tank/test_get_levels/test_get_levels.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/TankSystem/test_get_formula/test_get_formula.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CalibrationTable.py" beforeDir="false" afterPath="$PROJECT_DIR$/CalibrationTable.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cleaner.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exceptions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FuelLevelSensor.py" beforeDir="false" afterPath="$PROJECT_DIR$/FuelLevelSensor.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tank.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tank.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskSystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/TaskSystem.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualDutCreator.py" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualDutCreator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rectangle_grid.py" beforeDir="false" afterPath="$PROJECT_DIR$/rectangle_grid.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/CalibrationTable/test_read_calibration_table/test_read_calibration_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/CalibrationTable/test_read_calibration_table/test_read_calibration_table.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskSystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/TankSystem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualDutCreator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Tank/test_get_virtual_duts/test_get_virtual_fuel_sensors.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/Tank/test_get_virtual_duts/test_get_virtual_fuel_sensors.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/TankSystem/test_create_section_vector/test_get_borders.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/TankSystem/test_create_section_vector/test_get_borders.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/TankSystem/test_create_tank_system/test_create_tank_system.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/TankSystem/test_create_tank_system/test_create_tank_system.py" afterDir="false" />
     </list>
@@ -45,6 +50,9 @@
     <SUITE FILE_PATH="coverage/VirtualDutCreator$Doctests_in_Fixer.coverage" NAME="Doctests in Fixer Coverage Results" MODIFIED="1573717534087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/VirtualDutCreator$VirtualDutCreator.coverage" NAME="VirtualDutCreator Coverage Results" MODIFIED="1576660647019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/VirtualDutCreator$Unittests_in_TestFixer_py.coverage" NAME="Unittests in TestFixer.py Coverage Results" MODIFIED="1573718127770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="1" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -67,61 +75,66 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test/TankSystem/test_get_formula" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Repositories\VirtualDutCreator\test\TankSystem\test_get_formula" />
+      <recent name="E:\Repositories\VirtualDutCreator\test\Tank\test_get_formula" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Repositories\VirtualDutCreator\test\TankSystem\test_get_formula\files" />
       <recent name="C:\Users\i.pritchin\PycharmProjects\VirtualDutCreator" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_get_virtual_fuel_sensors.TestGetVirtualFuelSensors.test_two_border_3">
-    <configuration name="Unittests for test_get_virtual_fuel_sensors.TestGetVirtualFuelSensors.test_one_border_3" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests in test_get_virtual_fuel_sensors.py">
+    <configuration name="Unittests for test_get_formula.TestGetFormula.test_one_border_1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="VirtualDutCreator" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/Tank/test_get_virtual_duts" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/TankSystem/test_get_formula" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_get_virtual_fuel_sensors.TestGetVirtualFuelSensors.test_one_border_3&quot;" />
+      <option name="_new_target" value="&quot;test_get_formula.TestGetFormula.test_one_border_1&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_get_virtual_fuel_sensors.TestGetVirtualFuelSensors.test_one_border_4" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in test_get_formula.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="VirtualDutCreator" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/Tank/test_get_virtual_duts" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/Tank/test_get_formula" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_get_virtual_fuel_sensors.TestGetVirtualFuelSensors.test_one_border_4&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/Tank/test_get_formula/test_get_formula.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_get_virtual_fuel_sensors.TestGetVirtualFuelSensors.test_two_border_1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in test_get_levels.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="VirtualDutCreator" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/Tank/test_get_virtual_duts" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/Tank/test_get_levels" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_get_virtual_fuel_sensors.TestGetVirtualFuelSensors.test_two_border_1&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/Tank/test_get_levels/test_get_levels.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_get_virtual_fuel_sensors.TestGetVirtualFuelSensors.test_two_border_2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in test_get_virtual_fuel_sensors.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="VirtualDutCreator" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -132,39 +145,39 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_get_virtual_fuel_sensors.TestGetVirtualFuelSensors.test_two_border_2&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/Tank/test_get_virtual_duts/test_get_virtual_fuel_sensors.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_get_virtual_fuel_sensors.TestGetVirtualFuelSensors.test_two_border_3" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in test_read_calibration_table.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="VirtualDutCreator" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/Tank/test_get_virtual_duts" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/CalibrationTable/test_read_calibration_table" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_get_virtual_fuel_sensors.TestGetVirtualFuelSensors.test_two_border_3&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/CalibrationTable/test_read_calibration_table/test_read_calibration_table.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for test_get_virtual_fuel_sensors.TestGetVirtualFuelSensors.test_one_border_3" />
-      <item itemvalue="Python tests.Unittests for test_get_virtual_fuel_sensors.TestGetVirtualFuelSensors.test_one_border_4" />
-      <item itemvalue="Python tests.Unittests for test_get_virtual_fuel_sensors.TestGetVirtualFuelSensors.test_two_border_1" />
-      <item itemvalue="Python tests.Unittests for test_get_virtual_fuel_sensors.TestGetVirtualFuelSensors.test_two_border_2" />
-      <item itemvalue="Python tests.Unittests for test_get_virtual_fuel_sensors.TestGetVirtualFuelSensors.test_two_border_3" />
+      <item itemvalue="Python tests.Unittests for test_get_formula.TestGetFormula.test_one_border_1 (1)" />
+      <item itemvalue="Python tests.Unittests in test_read_calibration_table.py" />
+      <item itemvalue="Python tests.Unittests in test_get_formula.py" />
+      <item itemvalue="Python tests.Unittests in test_get_levels.py" />
+      <item itemvalue="Python tests.Unittests in test_get_virtual_fuel_sensors.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_get_virtual_fuel_sensors.TestGetVirtualFuelSensors.test_two_border_3" />
-        <item itemvalue="Python tests.Unittests for test_get_virtual_fuel_sensors.TestGetVirtualFuelSensors.test_two_border_2" />
-        <item itemvalue="Python tests.Unittests for test_get_virtual_fuel_sensors.TestGetVirtualFuelSensors.test_two_border_1" />
-        <item itemvalue="Python tests.Unittests for test_get_virtual_fuel_sensors.TestGetVirtualFuelSensors.test_one_border_4" />
-        <item itemvalue="Python tests.Unittests for test_get_virtual_fuel_sensors.TestGetVirtualFuelSensors.test_one_border_3" />
+        <item itemvalue="Python tests.Unittests in test_get_virtual_fuel_sensors.py" />
+        <item itemvalue="Python tests.Unittests in test_get_levels.py" />
+        <item itemvalue="Python tests.Unittests in test_get_formula.py" />
+        <item itemvalue="Python tests.Unittests in test_read_calibration_table.py" />
+        <item itemvalue="Python tests.Unittests for test_get_formula.TestGetFormula.test_one_border_1 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +239,8 @@
       <workItem from="1578898606289" duration="1284000" />
       <workItem from="1605436213060" duration="3223000" />
       <workItem from="1605442634598" duration="2687000" />
-      <workItem from="1605507407958" duration="17742000" />
+      <workItem from="1605507407958" duration="24085000" />
+      <workItem from="1605856677952" duration="34823000" />
     </task>
     <servers />
   </component>
@@ -259,60 +273,105 @@
       <screen x="0" y="0" width="2487" height="1440" />
     </state>
     <state x="697" y="374" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2487.1440@0.0.2487.1440" timestamp="1605442498377" />
-    <state width="2444" height="374" key="GridCell.Tab.0.bottom" timestamp="1605526724803">
-      <screen x="0" y="0" width="2487" height="1440" />
+    <state x="92" y="92" width="2314" height="1256" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1605879292869">
+      <screen x="0" y="0" width="2498" height="1440" />
     </state>
-    <state width="2444" height="374" key="GridCell.Tab.0.bottom/0.0.2487.1440@0.0.2487.1440" timestamp="1605526724803" />
-    <state width="2444" height="374" key="GridCell.Tab.0.center" timestamp="1605526724803">
-      <screen x="0" y="0" width="2487" height="1440" />
+    <state x="92" y="92" width="2314" height="1256" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.2498.1440@0.0.2498.1440" timestamp="1605879292869" />
+    <state width="908" height="466" key="DebuggerActiveHint" timestamp="1605892234145">
+      <screen x="0" y="0" width="2498" height="1440" />
     </state>
-    <state width="2444" height="374" key="GridCell.Tab.0.center/0.0.2487.1440@0.0.2487.1440" timestamp="1605526724803" />
-    <state width="2444" height="374" key="GridCell.Tab.0.left" timestamp="1605526724803">
-      <screen x="0" y="0" width="2487" height="1440" />
+    <state width="908" height="466" key="DebuggerActiveHint/0.0.2498.1440@0.0.2498.1440" timestamp="1605892234145" />
+    <state width="2455" height="506" key="GridCell.Tab.0.bottom" timestamp="1605910192302">
+      <screen x="0" y="0" width="2498" height="1440" />
     </state>
-    <state width="2444" height="374" key="GridCell.Tab.0.left/0.0.2487.1440@0.0.2487.1440" timestamp="1605526724803" />
-    <state width="2444" height="374" key="GridCell.Tab.0.right" timestamp="1605526724803">
-      <screen x="0" y="0" width="2487" height="1440" />
+    <state width="2444" height="506" key="GridCell.Tab.0.bottom/0.0.2487.1440@0.0.2487.1440" timestamp="1605540218664" />
+    <state width="2455" height="506" key="GridCell.Tab.0.bottom/0.0.2498.1440@0.0.2498.1440" timestamp="1605910192302" />
+    <state width="2455" height="506" key="GridCell.Tab.0.center" timestamp="1605910192302">
+      <screen x="0" y="0" width="2498" height="1440" />
     </state>
-    <state width="2444" height="374" key="GridCell.Tab.0.right/0.0.2487.1440@0.0.2487.1440" timestamp="1605526724803" />
-    <state width="2444" height="506" key="GridCell.Tab.1.bottom" timestamp="1605526049953">
-      <screen x="0" y="0" width="2487" height="1440" />
+    <state width="2444" height="506" key="GridCell.Tab.0.center/0.0.2487.1440@0.0.2487.1440" timestamp="1605540218664" />
+    <state width="2455" height="506" key="GridCell.Tab.0.center/0.0.2498.1440@0.0.2498.1440" timestamp="1605910192302" />
+    <state width="2455" height="506" key="GridCell.Tab.0.left" timestamp="1605910192302">
+      <screen x="0" y="0" width="2498" height="1440" />
     </state>
-    <state width="2444" height="506" key="GridCell.Tab.1.bottom/0.0.2487.1440@0.0.2487.1440" timestamp="1605526049953" />
-    <state width="2444" height="506" key="GridCell.Tab.1.center" timestamp="1605526049953">
-      <screen x="0" y="0" width="2487" height="1440" />
+    <state width="2444" height="506" key="GridCell.Tab.0.left/0.0.2487.1440@0.0.2487.1440" timestamp="1605540218664" />
+    <state width="2455" height="506" key="GridCell.Tab.0.left/0.0.2498.1440@0.0.2498.1440" timestamp="1605910192302" />
+    <state width="2455" height="506" key="GridCell.Tab.0.right" timestamp="1605910192302">
+      <screen x="0" y="0" width="2498" height="1440" />
     </state>
-    <state width="2444" height="506" key="GridCell.Tab.1.center/0.0.2487.1440@0.0.2487.1440" timestamp="1605526049953" />
-    <state width="2444" height="506" key="GridCell.Tab.1.left" timestamp="1605526049953">
-      <screen x="0" y="0" width="2487" height="1440" />
+    <state width="2444" height="506" key="GridCell.Tab.0.right/0.0.2487.1440@0.0.2487.1440" timestamp="1605540218664" />
+    <state width="2455" height="506" key="GridCell.Tab.0.right/0.0.2498.1440@0.0.2498.1440" timestamp="1605910192302" />
+    <state width="2455" height="506" key="GridCell.Tab.1.bottom" timestamp="1605910192302">
+      <screen x="0" y="0" width="2498" height="1440" />
     </state>
-    <state width="2444" height="506" key="GridCell.Tab.1.left/0.0.2487.1440@0.0.2487.1440" timestamp="1605526049953" />
-    <state width="2444" height="506" key="GridCell.Tab.1.right" timestamp="1605526049953">
-      <screen x="0" y="0" width="2487" height="1440" />
+    <state width="2444" height="506" key="GridCell.Tab.1.bottom/0.0.2487.1440@0.0.2487.1440" timestamp="1605540218664" />
+    <state width="2455" height="506" key="GridCell.Tab.1.bottom/0.0.2498.1440@0.0.2498.1440" timestamp="1605910192302" />
+    <state width="2455" height="506" key="GridCell.Tab.1.center" timestamp="1605910192302">
+      <screen x="0" y="0" width="2498" height="1440" />
     </state>
-    <state width="2444" height="506" key="GridCell.Tab.1.right/0.0.2487.1440@0.0.2487.1440" timestamp="1605526049953" />
+    <state width="2444" height="506" key="GridCell.Tab.1.center/0.0.2487.1440@0.0.2487.1440" timestamp="1605540218664" />
+    <state width="2455" height="506" key="GridCell.Tab.1.center/0.0.2498.1440@0.0.2498.1440" timestamp="1605910192302" />
+    <state width="2455" height="506" key="GridCell.Tab.1.left" timestamp="1605910192302">
+      <screen x="0" y="0" width="2498" height="1440" />
+    </state>
+    <state width="2444" height="506" key="GridCell.Tab.1.left/0.0.2487.1440@0.0.2487.1440" timestamp="1605540218664" />
+    <state width="2455" height="506" key="GridCell.Tab.1.left/0.0.2498.1440@0.0.2498.1440" timestamp="1605910192302" />
+    <state width="2455" height="506" key="GridCell.Tab.1.right" timestamp="1605910192302">
+      <screen x="0" y="0" width="2498" height="1440" />
+    </state>
+    <state width="2444" height="506" key="GridCell.Tab.1.right/0.0.2487.1440@0.0.2487.1440" timestamp="1605540218664" />
+    <state width="2455" height="506" key="GridCell.Tab.1.right/0.0.2498.1440@0.0.2498.1440" timestamp="1605910192302" />
     <state x="744" y="364" key="SettingsEditor" timestamp="1605442650395">
       <screen x="0" y="0" width="2487" height="1440" />
     </state>
     <state x="744" y="364" key="SettingsEditor/0.0.2487.1440@0.0.2487.1440" timestamp="1605442650395" />
-    <state x="906" y="325" width="672" height="678" key="search.everywhere.popup" timestamp="1605516795082">
-      <screen x="0" y="0" width="2487" height="1440" />
+    <state x="910" y="325" width="675" height="678" key="search.everywhere.popup" timestamp="1605890559516">
+      <screen x="0" y="0" width="2498" height="1440" />
     </state>
-    <state x="906" y="325" width="672" height="678" key="search.everywhere.popup/0.0.2487.1440@0.0.2487.1440" timestamp="1605516795082" />
+    <state x="906" y="325" width="672" height="678" key="search.everywhere.popup/0.0.2487.1440@0.0.2487.1440" timestamp="1605533067365" />
+    <state x="910" y="325" width="675" height="678" key="search.everywhere.popup/0.0.2498.1440@0.0.2498.1440" timestamp="1605890559516" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/Tank/test_get_formula/test_get_formula.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/VirtualDutCreator$Unittests_for_test_get_borders_TestGetBorders_test_two_duts_conf_2.coverage" NAME="Unittests for test_get_borders.TestGetBorders.test_two_duts_conf_2 Coverage Results" MODIFIED="1605508245159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/TankSystem/test_create_section_vector" />
+    <SUITE FILE_PATH="coverage/VirtualDutCreator$Unittests_for_test_get_formula_TestGetFormula_test_two_border_2.coverage" NAME="Unittests for test_get_formula.TestGetFormula.test_two_border_2 Coverage Results" MODIFIED="1605896804588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/Tank/test_get_formula" />
+    <SUITE FILE_PATH="coverage/VirtualDutCreator$Unittests_for_test_get_levels_TestGetLevels_test_one_border_3.coverage" NAME="Unittests for test_get_levels.TestGetLevels.test_one_border_3 Coverage Results" MODIFIED="1605876918119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/Tank/test_get_levels" />
+    <SUITE FILE_PATH="coverage/VirtualDutCreator$Unittests_for_test_get_virtual_fuel_sensors_TestGetVirtualFuelSensors_test_one_border_3.coverage" NAME="Unittests for test_get_virtual_fuel_sensors.TestGetVirtualFuelSensors.test_one_border_3 Coverage Results" MODIFIED="1605520159004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/Tank/test_get_virtual_duts" />
+    <SUITE FILE_PATH="coverage/VirtualDutCreator$Unittests_for_test_get_formula_TestGetFormula.coverage" NAME="Unittests for test_get_formula.TestGetFormula Coverage Results" MODIFIED="1605896528516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/Tank/test_get_formula" />
+    <SUITE FILE_PATH="coverage/VirtualDutCreator$Unittests_in_test_get_virtual_fuel_sensors_py.coverage" NAME="Unittests in test_get_virtual_fuel_sensors.py Coverage Results" MODIFIED="1605902178582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/Tank/test_get_virtual_duts" />
+    <SUITE FILE_PATH="coverage/VirtualDutCreator$Unittests_for_test_get_formula_TestGetFormula_test_one_border_1__1_.coverage" NAME="Unittests for test_get_formula.TestGetFormula.test_one_border_1 Coverage Results" MODIFIED="1605902097133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/TankSystem/test_get_formula" />
+    <SUITE FILE_PATH="coverage/VirtualDutCreator$Unittests_in_test_read_calibration_table_py.coverage" NAME="Unittests in test_read_calibration_table.py Coverage Results" MODIFIED="1605902124420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/CalibrationTable/test_read_calibration_table" />
+    <SUITE FILE_PATH="coverage/VirtualDutCreator$Unittests_in_test.coverage" NAME="Unittests in test Coverage Results" MODIFIED="1605508600831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/VirtualDutCreator$Unittests_for_test_get_virtual_fuel_sensors_TestGetVirtualFuelSensors_test_two_border_2.coverage" NAME="Unittests for test_get_virtual_fuel_sensors.TestGetVirtualFuelSensors.test_two_border_2 Coverage Results" MODIFIED="1605526049945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/Tank/test_get_virtual_duts" />
+    <SUITE FILE_PATH="coverage/VirtualDutCreator$Unittests_for_test_get_levels_TestGetLevels_test_one_border_2.coverage" NAME="Unittests for test_get_levels.TestGetLevels.test_one_border_2 Coverage Results" MODIFIED="1605879291206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/Tank/test_get_levels" />
+    <SUITE FILE_PATH="coverage/VirtualDutCreator$Unittests_for_test_get_virtual_fuel_sensors_TestGetVirtualFuelSensors_test_one_border_2.coverage" NAME="Unittests for test_get_virtual_fuel_sensors.TestGetVirtualFuelSensors.test_one_border_2 Coverage Results" MODIFIED="1605518998763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/Tank/test_get_virtual_duts" />
+    <SUITE FILE_PATH="coverage/VirtualDutCreator$Unittests_for_test_get_levels_TestGetLevels_test_two_border_2.coverage" NAME="Unittests for test_get_levels.TestGetLevels.test_two_border_2 Coverage Results" MODIFIED="1605878809430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/Tank/test_get_levels" />
+    <SUITE FILE_PATH="coverage/VirtualDutCreator$Unittests_in_test_get_levels_py.coverage" NAME="Unittests in test_get_levels.py Coverage Results" MODIFIED="1605902148059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/Tank/test_get_levels" />
+    <SUITE FILE_PATH="coverage/VirtualDutCreator$Unittests_for_test_get_levels_TestGetLevels.coverage" NAME="Unittests for test_get_levels.TestGetLevels Coverage Results" MODIFIED="1605869427475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/Tank/test_get_levels" />
+    <SUITE FILE_PATH="coverage/VirtualDutCreator$Unittests_in_test_get_formula_py.coverage" NAME="Unittests in test_get_formula.py Coverage Results" MODIFIED="1605902138957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/Tank/test_get_formula" />
     <SUITE FILE_PATH="coverage/VirtualDutCreator$Unittests_for_test_get_virtual_fuel_sensors_TestGetVirtualFuelSensors_test_two_border_1.coverage" NAME="Unittests for test_get_virtual_fuel_sensors.TestGetVirtualFuelSensors.test_two_border_1 Coverage Results" MODIFIED="1605524857855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/Tank/test_get_virtual_duts" />
     <SUITE FILE_PATH="coverage/VirtualDutCreator$VirtualDutCreator.coverage" NAME="VirtualDutCreator Coverage Results" MODIFIED="1605442498787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/VirtualDutCreator$Unittests_for_test_get_formula_TestGetFormula_test_two_border_3.coverage" NAME="Unittests for test_get_formula.TestGetFormula.test_two_border_3 Coverage Results" MODIFIED="1605896819301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/Tank/test_get_formula" />
     <SUITE FILE_PATH="coverage/VirtualDutCreator$Unittests_in_test_get_borders_py.coverage" NAME="Unittests in test_get_borders.py Coverage Results" MODIFIED="1605508785986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/TankSystem/test_create_section_vector" />
-    <SUITE FILE_PATH="coverage/VirtualDutCreator$Unittests_for_test_get_virtual_fuel_sensors_TestGetVirtualFuelSensors_test_one_border_3.coverage" NAME="Unittests for test_get_virtual_fuel_sensors.TestGetVirtualFuelSensors.test_one_border_3 Coverage Results" MODIFIED="1605520159004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/Tank/test_get_virtual_duts" />
-    <SUITE FILE_PATH="coverage/VirtualDutCreator$Unittests_in_test_read_calibration_table_py.coverage" NAME="Unittests in test_read_calibration_table.py Coverage Results" MODIFIED="1605508794194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/CalibrationTable/test_read_calibration_table" />
-    <SUITE FILE_PATH="coverage/VirtualDutCreator$Unittests_in_test.coverage" NAME="Unittests in test Coverage Results" MODIFIED="1605508600831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/VirtualDutCreator$Unittests_for_test_get_levels_TestGetLevels_test_two_border_1.coverage" NAME="Unittests for test_get_levels.TestGetLevels.test_two_border_1 Coverage Results" MODIFIED="1605877533075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/Tank/test_get_levels" />
+    <SUITE FILE_PATH="coverage/VirtualDutCreator$Unittests_for_test_get_levels_TestGetLevels_test_one_border_4.coverage" NAME="Unittests for test_get_levels.TestGetLevels.test_one_border_4 Coverage Results" MODIFIED="1605877023320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/Tank/test_get_levels" />
     <SUITE FILE_PATH="coverage/VirtualDutCreator$Unittests_for_test_get_virtual_fuel_sensors_TestGetVirtualFuelSensors_test_one_border_1.coverage" NAME="Unittests for test_get_virtual_fuel_sensors.TestGetVirtualFuelSensors.test_one_border_1 Coverage Results" MODIFIED="1605518504637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/Tank/test_get_virtual_duts" />
+    <SUITE FILE_PATH="coverage/VirtualDutCreator$Unittests_for_test_get_levels_TestGetLevels_test_two_border_3.coverage" NAME="Unittests for test_get_levels.TestGetLevels.test_two_border_3 Coverage Results" MODIFIED="1605879058582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/Tank/test_get_levels" />
     <SUITE FILE_PATH="coverage/VirtualDutCreator$Unittests_for_test_get_virtual_fuel_sensors_TestGetVirtualFuelSensors_test_one_border_4.coverage" NAME="Unittests for test_get_virtual_fuel_sensors.TestGetVirtualFuelSensors.test_one_border_4 Coverage Results" MODIFIED="1605521015514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/Tank/test_get_virtual_duts" />
     <SUITE FILE_PATH="coverage/VirtualDutCreator$Unittests_for_test_get_virtual_fuel_sensors_TestGetVirtualFuelSensors_test_two_border_3.coverage" NAME="Unittests for test_get_virtual_fuel_sensors.TestGetVirtualFuelSensors.test_two_border_3 Coverage Results" MODIFIED="1605526724799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/Tank/test_get_virtual_duts" />
-    <SUITE FILE_PATH="coverage/VirtualDutCreator$Unittests_for_test_get_virtual_fuel_sensors_TestGetVirtualFuelSensors_test_two_border_2.coverage" NAME="Unittests for test_get_virtual_fuel_sensors.TestGetVirtualFuelSensors.test_two_border_2 Coverage Results" MODIFIED="1605526049945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/Tank/test_get_virtual_duts" />
-    <SUITE FILE_PATH="coverage/VirtualDutCreator$Unittests_for_test_get_virtual_fuel_sensors_TestGetVirtualFuelSensors_test_one_border_2.coverage" NAME="Unittests for test_get_virtual_fuel_sensors.TestGetVirtualFuelSensors.test_one_border_2 Coverage Results" MODIFIED="1605518998763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/Tank/test_get_virtual_duts" />
-    <SUITE FILE_PATH="coverage/VirtualDutCreator$Unittests_in_test_create_tank_system_py.coverage" NAME="Unittests in test_create_tank_system.py Coverage Results" MODIFIED="1605508767655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/TankSystem/test_create_tank_system" />
+    <SUITE FILE_PATH="coverage/VirtualDutCreator$Unittests_for_test_get_levels_TestGetLevels_test_one_border_1.coverage" NAME="Unittests for test_get_levels.TestGetLevels.test_one_border_1 Coverage Results" MODIFIED="1605879255568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/Tank/test_get_levels" />
+    <SUITE FILE_PATH="coverage/VirtualDutCreator$Unittests_in_test_create_tank_system_py.coverage" NAME="Unittests in test_create_tank_system.py Coverage Results" MODIFIED="1605857052039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/TankSystem/test_create_tank_system" />
+    <SUITE FILE_PATH="coverage/VirtualDutCreator$Unittests_for_test_get_formula_TestGetFormula_test_two_border_1.coverage" NAME="Unittests for test_get_formula.TestGetFormula.test_two_border_1 Coverage Results" MODIFIED="1605896756612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/Tank/test_get_formula" />
+    <SUITE FILE_PATH="coverage/VirtualDutCreator$Unittests_for_test_get_formula_TestGetFormula_test_one_border_1.coverage" NAME="Unittests for test_get_formula.TestGetFormula.test_one_border_1 Coverage Results" MODIFIED="1605896167065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/Tank/test_get_formula" />
   </component>
 </project>

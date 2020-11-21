@@ -6,10 +6,12 @@ import pandas as pd
 
 class FuelLevelSensor:
 
-    def __init__(self, values: List[int], liters: List[int], need_clear=False):
+    def __init__(self, values: List[int], liters: List[int], need_clear=False, name=None):
         self.liters = liters
         self.values = values
         assert len(self.liters) == len(self.values)
+        if name:
+            self.name = name
         if need_clear:
             self.clear_start(5)
             self.clear_end(3)

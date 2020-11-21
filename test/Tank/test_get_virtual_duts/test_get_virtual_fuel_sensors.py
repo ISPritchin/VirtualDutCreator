@@ -1,7 +1,7 @@
 import unittest
 
 from CalibrationTable import *
-from TaskSystem import *
+from TankSystem import *
 
 
 class TestGetVirtualFuelSensors(unittest.TestCase):
