@@ -53,3 +53,31 @@ class TestGetFormula(unittest.TestCase):
             CalibrationTable(path)
         )
         self.assertEqual(ts[0].get_formula(), '[FUEL_1] + ([FUEL_2] + [FUEL_3]) / 2 + [FUEL_4]')
+
+    def test_blind_start_1(self):
+        path = "files/test_blind_start_1.xlsx"
+        ts = TankSystem(
+            CalibrationTable(path)
+        )
+        self.assertEqual(ts[0].get_formula(), '20 + [FUEL_1] + ([FUEL_2] + [FUEL_3]) / 2')
+
+    def test_blind_start_2(self):
+        path = "files/test_blind_start_2.xlsx"
+        ts = TankSystem(
+            CalibrationTable(path)
+        )
+        self.assertEqual(ts[0].get_formula(), '20 + ([FUEL_1] + [FUEL_2]) / 2')
+
+    def test_blind_end_1(self):
+        path = "files/test_blind_end_1.xlsx"
+        ts = TankSystem(
+            CalibrationTable(path)
+        )
+        self.assertEqual(ts[0].get_formula(), '[FUEL_1] + ([FUEL_2] + [FUEL_3]) / 2')
+
+    def test_blind_end_2(self):
+        path = "files/test_blind_end_2.xlsx"
+        ts = TankSystem(
+            CalibrationTable(path)
+        )
+        self.assertEqual(ts[0].get_formula(), '([FUEL_1] + [FUEL_2]) / 2')

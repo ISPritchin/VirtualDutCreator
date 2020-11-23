@@ -10,7 +10,8 @@ class VirtualFuelLevelSensor:
                  values: List[int],
                  liters: List[int],
                  parent_fuel_level_sensor: Union[FuelLevelSensor, None] = None):
-        self.range_fuel_level_sensor = (min(liters), max(liters))
+        self.range_fuel_level_sensor_liters = (min(liters), max(liters))
+        self.range_fuel_level_sensor_values = (min(values), max(values))
 
         min_liters = min(liters)
         liters = list(map(lambda x: x - min_liters, liters))

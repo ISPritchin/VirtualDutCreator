@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 
 def rectangle_grid(nplots, ncols):
     height_coefs = {
+        1: 6.5,
         2: 5.5,
         3: 4.5,
         4: 3.7,

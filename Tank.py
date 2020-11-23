@@ -66,7 +66,7 @@ class Tank:
         levels = {(low, high): [] for low, high in zip(points[:-1], points[1:])}
 
         for virtual_fuel_sensor in self.virtual_fuel_sensors:
-            avg_liters = sum(virtual_fuel_sensor.range_fuel_level_sensor) / 2
+            avg_liters = sum(virtual_fuel_sensor.range_fuel_level_sensor_liters) / 2
             for i, (low, high) in enumerate(levels.keys()):
                 if low < avg_liters < high:
                     levels[(low, high)].append(virtual_fuel_sensor)
