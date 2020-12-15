@@ -26,3 +26,5 @@ class VirtualFuelLevelSensor:
         self.values = values
         assert len(self.liters) == len(self.values)
         self.parent_fuel_level_sensor = parent_fuel_level_sensor
+        self.dut_number = None
+        self.name = None

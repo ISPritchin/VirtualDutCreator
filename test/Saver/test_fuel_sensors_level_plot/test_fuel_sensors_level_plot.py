@@ -1,7 +1,7 @@
 import unittest
 
 from TankSystem import *
-
+from Saver import *
 
 class TestSensorsLevelPlot(unittest.TestCase):
 
@@ -11,7 +11,7 @@ class TestSensorsLevelPlot(unittest.TestCase):
         ts = TankSystem(
             CalibrationTable(path)
         )
-        ts.save_fuel_sensors_level_plot(f"res_files/{filename}.jpg")
+        Saver(ts).save_fuel_sensors_level_plot(f"res_files/{filename}.jpg")
 
     def test_one_tank_one_border_1(self):
         filename = "test_one_tank_one_border_1"
@@ -19,7 +19,7 @@ class TestSensorsLevelPlot(unittest.TestCase):
         ts = TankSystem(
             CalibrationTable(path)
         )
-        ts.save_fuel_sensors_level_plot(f"res_files/{filename}.jpg")
+        Saver(ts).save_fuel_sensors_level_plot(f"res_files/{filename}.jpg")
     #
     def test_one_tank_one_border_2(self):
         filename = "test_one_tank_one_border_2"
@@ -27,7 +27,7 @@ class TestSensorsLevelPlot(unittest.TestCase):
         ts = TankSystem(
             CalibrationTable(path)
         )
-        ts.save_fuel_sensors_level_plot(f"res_files/{filename}.jpg")
+        Saver(ts).save_fuel_sensors_level_plot(f"res_files/{filename}.jpg")
 
     def test_one_tank_one_border_3(self):
         filename = "test_one_tank_one_border_3"
@@ -35,7 +35,7 @@ class TestSensorsLevelPlot(unittest.TestCase):
         ts = TankSystem(
             CalibrationTable(path)
         )
-        ts.save_fuel_sensors_level_plot(f"res_files/{filename}.jpg")
+        Saver(ts).save_fuel_sensors_level_plot(f"res_files/{filename}.jpg")
 
     def test_one_tank_two_borders_1(self):
         filename = "test_one_tank_two_borders_1"
@@ -43,7 +43,7 @@ class TestSensorsLevelPlot(unittest.TestCase):
         ts = TankSystem(
             CalibrationTable(path)
         )
-        ts.save_fuel_sensors_level_plot(f"res_files/{filename}.jpg")
+        Saver(ts).save_fuel_sensors_level_plot(f"res_files/{filename}.jpg")
 
     def test_one_tank_two_borders_2(self):
         filename = "test_one_tank_two_borders_2"
@@ -51,7 +51,7 @@ class TestSensorsLevelPlot(unittest.TestCase):
         ts = TankSystem(
             CalibrationTable(path)
         )
-        ts.save_fuel_sensors_level_plot(f"res_files/{filename}.jpg")
+        Saver(ts).save_fuel_sensors_level_plot(f"res_files/{filename}.jpg")
 
     def test_one_tank_two_borders_3(self):
         filename = "test_one_tank_two_borders_3"
@@ -59,7 +59,7 @@ class TestSensorsLevelPlot(unittest.TestCase):
         ts = TankSystem(
             CalibrationTable(path)
         )
-        ts.save_fuel_sensors_level_plot(f"res_files/{filename}.jpg")
+        Saver(ts).save_fuel_sensors_level_plot(f"res_files/{filename}.jpg")
 
     def test_two_tanks_1(self):
         filename = "test_two_tanks_1"
@@ -67,7 +67,7 @@ class TestSensorsLevelPlot(unittest.TestCase):
         ts = TankSystem(
             CalibrationTable(path)
         )
-        ts.save_fuel_sensors_level_plot(f"res_files/{filename}.jpg")
+        Saver(ts).save_fuel_sensors_level_plot(f"res_files/{filename}.jpg")
 
     def test_two_tanks_2(self):
         filename = "test_two_tanks_2"
@@ -75,4 +75,4 @@ class TestSensorsLevelPlot(unittest.TestCase):
         ts = TankSystem(
             CalibrationTable(path)
         )
-        ts.save_fuel_sensors_level_plot(f"res_files/{filename}.jpg")
+        Saver(ts).save_fuel_sensors_level_plot(f"res_files/{filename}.jpg")

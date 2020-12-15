@@ -86,8 +86,10 @@ class Tank:
             if len(sensors) > 1:
                 formula += "("
             for sensor in sensors:
-                formula += f"[FUEL_{fuel_number}] + "
+                sensor.name = f"FUEL_{fuel_number}"
+                formula += f"[{sensor.name}] + "
                 fuel_number += 1
+
             if len(sensors) > 1:
                 formula += f") / {len(sensors)} + "
         formula = formula.replace(" + )", ")")
