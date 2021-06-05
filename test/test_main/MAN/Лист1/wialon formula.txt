@@ -1,1 +1,0 @@
-(FUEL_1 + FUEL_2) / const2

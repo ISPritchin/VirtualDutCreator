@@ -1,0 +1,1 @@
+FUEL_1 + (FUEL_2 + FUEL_3) / const2 + (FUEL_4 + FUEL_5 + FUEL_6) / const3 + FUEL_7
