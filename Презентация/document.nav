@@ -78,8 +78,16 @@
 \headcommand {\slideentry {0}{0}{20}{20/20}{}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {20}{20}}
-\headcommand {\beamer@partpages {1}{20}}
-\headcommand {\beamer@subsectionpages {1}{20}}
-\headcommand {\beamer@sectionpages {1}{20}}
-\headcommand {\beamer@documentpages {20}}
-\headcommand {\gdef \inserttotalframenumber {20}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {0}{0}{21}{21/21}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {21}{21}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {0}{0}{22}{22/22}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {22}{22}}
+\headcommand {\beamer@partpages {1}{22}}
+\headcommand {\beamer@subsectionpages {1}{22}}
+\headcommand {\beamer@sectionpages {1}{22}}
+\headcommand {\beamer@documentpages {22}}
+\headcommand {\gdef \inserttotalframenumber {22}}

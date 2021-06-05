@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.14)  5 JUN 2021 03:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.14)  5 JUN 2021 08:09
 entering extended mode
 **./document.tex
 (document.tex
@@ -2089,20 +2089,14 @@ Package pdftex.def Info: graphics/Background-Dark.jpg  used on input line 63.
 [1
 
 {C:/Users/John/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./graphics/Backg
-round-Dark.jpg>]
-Overfull \hbox (10.11482pt too wide) in paragraph at lines 74--74
-[]\T2A/Montserrat-LF/semibold/n/10.95 Компании, осу-ществ-ля-ю-щие мо-ни-то-рин
-г за транс-порт-ным сред-
- []
-
-<<ot1.cmap>><<oml.cmap>>
-LaTeX Font Info:    Trying to load font information for U+msa on input line 74.
+round-Dark.jpg>]<<ot1.cmap>><<oml.cmap>>
+LaTeX Font Info:    Trying to load font information for U+msa on input line 72.
 
 
 (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 74.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 72.
 
 
 (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
@@ -2110,55 +2104,49 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 LaTeX Font Warning: Font shape `T2A/cmr/m/up' undefined
-(Font)              using `T2A/cmr/m/n' instead on input line 74.
+(Font)              using `T2A/cmr/m/n' instead on input line 72.
 
 LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 
-74.
+72.
 (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxmia.fd
 File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
 )
 LaTeX Font Info:    Trying to load font information for LMS+cmr on input line 7
-4.
-LaTeX Font Info:    No file LMScmr.fd. on input line 74.
+2.
+LaTeX Font Info:    No file LMScmr.fd. on input line 72.
 
 
 LaTeX Font Warning: Font shape `LMS/cmr/m/up' undefined
-(Font)              using `LMS/ntxsy/m/n' instead on input line 74.
+(Font)              using `LMS/ntxsy/m/n' instead on input line 72.
 
 LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 
-74.
+72.
 (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
 LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 
-74.
+72.
 
 (C:\Users\John\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
 LaTeX Font Info:    Trying to load font information for LMX+cmr on input line 7
-4.
-LaTeX Font Info:    No file LMXcmr.fd. on input line 74.
+2.
+LaTeX Font Info:    No file LMXcmr.fd. on input line 72.
 
 
 LaTeX Font Warning: Font shape `LMX/cmr/m/up' undefined
-(Font)              using `LMX/ntxexx/m/n' instead on input line 74.
+(Font)              using `LMX/ntxexx/m/n' instead on input line 72.
 
 LaTeX Font Info:    Trying to load font information for LY1+cmr on input line 7
-4.
-LaTeX Font Info:    No file LY1cmr.fd. on input line 74.
+2.
+LaTeX Font Info:    No file LY1cmr.fd. on input line 72.
 
 LaTeX Font Warning: Font shape `LY1/cmr/m/up' undefined
-(Font)              using `LY1/ptm/m/n' instead on input line 74.
+(Font)              using `LY1/ptm/m/n' instead on input line 72.
 
 <<ly1.cmap>>
-Overfull \hbox (0.57695pt too wide) in paragraph at lines 74--74
-[]\T2A/Montserrat-LF/semibold/n/10.95 большое ко-ли-че-ство кон-фи-гу-ра-ций ба
--ков: тре-бу-ет-ся адап-
- []
-
-
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 74--74
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 72--72
 [][] 
  []
 
@@ -2168,36 +2156,32 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 74--74
 <graphics/screenshot002.png, id=36, 325.215pt x 414.79968pt>
 File: graphics/screenshot002.png Graphic file (type png)
 <use graphics/screenshot002.png>
-Package pdftex.def Info: graphics/screenshot002.png  used on input line 97.
+Package pdftex.def Info: graphics/screenshot002.png  used on input line 95.
 (pdftex.def)             Requested size: 119.84285pt x 152.85321pt.
-
-Underfull \hbox (badness 1231) in paragraph at lines 97--97
-\T2A/Montserrat-LF/semibold/n/10.95 осу-ществ-ля-ет мон-таж ДУТ в
- []
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 97.
+(Font)              size <5> substituted on input line 95.
 
 
 LaTeX Font Warning: Font shape `T2A/cmr/m/up' in size <5.5> not available
-(Font)              size <5> substituted on input line 97.
+(Font)              size <5> substituted on input line 95.
 
 
-Underfull \hbox (badness 1701) in paragraph at lines 97--97
+Underfull \hbox (badness 1701) in paragraph at lines 95--95
 []\T2A/cmr/m/up/10 Снимаются по-ка-за-ния $\OML/ntxmi/m/it/10 D[]$ \T2A/cmr/m/u
 p/10 с
  []
 
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 97--97
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 95--95
 [][] 
  []
 
 [3
 
  <./graphics/screenshot002.png>]
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 106--106
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 104--104
 [][] 
  []
 
@@ -2207,10 +2191,10 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 106--106
 <graphics/screenshot003.png, id=57, 148.8762pt x 182.1204pt>
 File: graphics/screenshot003.png Graphic file (type png)
 <use graphics/screenshot003.png>
-Package pdftex.def Info: graphics/screenshot003.png  used on input line 122.
+Package pdftex.def Info: graphics/screenshot003.png  used on input line 120.
 (pdftex.def)             Requested size: 107.85782pt x 131.94081pt.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 122--122
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 120--120
 [][] 
  []
 
@@ -2220,29 +2204,40 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 122--122
 <graphics/screenshot004.png, id=66, 408.02437pt x 505.13719pt>
 File: graphics/screenshot004.png Graphic file (type png)
 <use graphics/screenshot004.png>
-Package pdftex.def Info: graphics/screenshot004.png  used on input line 138.
+Package pdftex.def Info: graphics/screenshot004.png  used on input line 136.
 (pdftex.def)             Requested size: 107.85782pt x 133.52928pt.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 138--138
+Underfull \hbox (badness 1337) in paragraph at lines 136--136
+[]\T2A/cmr/m/up/10.95 Если бак по-лон, бу-дут при-сла-ны
+ []
+
+
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 136--136
 [][] 
  []
 
 [6
 
  <./graphics/screenshot004.png>]
-Overfull \hbox (8.58244pt too wide) in paragraph at lines 151--151
+Overfull \hbox (8.58244pt too wide) in paragraph at lines 149--149
 []\T2A/cmr/m/up/10.95 исследовать су-ще-ству-ю-щие под-хо-ды к ре-ше-нию за-дач
  опре-
  []
 
 
-Overfull \hbox (4.95682pt too wide) in paragraph at lines 151--151
+Overfull \hbox (4.95682pt too wide) in paragraph at lines 149--149
 \T2A/cmr/m/up/10.95 ал-го-ритм адап-та-ции дан-ных, по-лу-ча-е-мых с дат-чи-ков
  уров-
  []
 
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 151--151
+Overfull \hbox (4.20004pt too wide) in paragraph at lines 149--149
+[]\T2A/cmr/m/up/10.95 описать ал-го-ритм для спе-ци-а-ли-стов тех-ни-че-ской по
+д-держ-
+ []
+
+
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 149--149
 [][] 
  []
 
@@ -2252,41 +2247,36 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 151--151
 <graphics/screenshot005.png, id=81, 497.60907pt x 447.17062pt>
 File: graphics/screenshot005.png Graphic file (type png)
 <use graphics/screenshot005.png>
-Package pdftex.def Info: graphics/screenshot005.png  used on input line 159.
+Package pdftex.def Info: graphics/screenshot005.png  used on input line 157.
 (pdftex.def)             Requested size: 184.3758pt x 165.68935pt.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 159--159
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 157--157
 [][] 
  []
 
 [8
 
  <./graphics/screenshot005.png (PNG copy)>]
-Overfull \hbox (0.29109pt too wide) in paragraph at lines 183--183
-[]\T2A/cmr/m/up/10.95 По та-ри-ро-воч-ной таб-ли-це вы-де-ля-ют-ся зо-ны на ос-
-но-ва-нии мно-
- []
-
 <graphics/screenshot006.png, id=88, 867.99281pt x 632.3625pt>
 File: graphics/screenshot006.png Graphic file (type png)
 <use graphics/screenshot006.png>
-Package pdftex.def Info: graphics/screenshot006.png  used on input line 183.
+Package pdftex.def Info: graphics/screenshot006.png  used on input line 181.
 (pdftex.def)             Requested size: 138.2795pt x 100.7362pt.
 
-Overfull \hbox (26.8783pt too wide) detected at line 183
+Overfull \hbox (26.8783pt too wide) detected at line 181
 \OML/ntxmi/m/it/10.95 fuel\LMS/cmr/m/up/10.95 №\OML/ntxmi/m/it/10.95 Z[]\LMS/cm
 r/m/up/10.95 є \U/ntxmia/m/it/10.95 = []
  []
 
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 183--183
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 181--181
 [][] 
  []
 
 [9
 
  <./graphics/screenshot006.png>]
-Overfull \hbox (3.90546pt too wide) in paragraph at lines 193--193
+Overfull \hbox (3.90546pt too wide) in paragraph at lines 191--191
 []\T2A/cmr/m/up/10.95 Назовјм вир-ту-аль-ным дат-чи-ком уров-ня топ-ли-ва (ВДУТ
 ) неко-
  []
@@ -2294,10 +2284,17 @@ Overfull \hbox (3.90546pt too wide) in paragraph at lines 193--193
 <graphics/screenshot008.png, id=96, 874.76813pt x 636.12656pt>
 File: graphics/screenshot008.png Graphic file (type png)
 <use graphics/screenshot008.png>
-Package pdftex.def Info: graphics/screenshot008.png  used on input line 193.
+Package pdftex.def Info: graphics/screenshot008.png  used on input line 191.
 (pdftex.def)             Requested size: 138.2795pt x 100.54959pt.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 193--193
+Overfull \hbox (22.2907pt too wide) in paragraph at lines 191--191
+\T2A/cmr/m/up/10.95 Важно пом-нить, что дат-чик за-да-јт-ся мно-же-ством то-чек
+ $\LMS/cmr/m/up/10.95 f№\OML/ntxmi/m/it/10.95 D[];  V[]\LMS/cmr/m/up/10.95 єg$\
+T2A/cmr/m/up/10.95 .
+ []
+
+
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 191--191
 [][] 
  []
 
@@ -2307,15 +2304,15 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 193--193
 <graphics/screenshot007.png, id=104, 1244.39906pt x 682.04813pt>
 File: graphics/screenshot007.png Graphic file (type png)
 <use graphics/screenshot007.png>
-Package pdftex.def Info: graphics/screenshot007.png  used on input line 200.
+Package pdftex.def Info: graphics/screenshot007.png  used on input line 198.
 (pdftex.def)             Requested size: 322.65529pt x 176.83919pt.
 
-Overfull \hbox (15.36542pt too wide) in paragraph at lines 200--200
+Overfull \hbox (15.36542pt too wide) in paragraph at lines 198--198
 [][] 
  []
 
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 200--200
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 198--198
 [][] 
  []
 
@@ -2325,22 +2322,26 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 200--200
 <graphics/screenshot009.png, id=111, 194.97844pt x 323.70938pt>
 File: graphics/screenshot009.png Graphic file (type png)
 <use graphics/screenshot009.png>
-Package pdftex.def Info: graphics/screenshot009.png  used on input line 208.
+Package pdftex.def Info: graphics/screenshot009.png  used on input line 206.
 (pdftex.def)             Requested size: 61.45703pt x 102.0332pt.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 208--208
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 206--206
 [][] 
  []
 
 [12
 
  <./graphics/screenshot009.png>]
+Underfull \hbox (badness 1122) in paragraph at lines 226--226
+[]\T2A/cmr/m/up/10.95 Наличие вир-ту-аль-ных дат-чи-ков
+ []
+
 File: graphics/screenshot008.png Graphic file (type png)
 <use graphics/screenshot008.png>
-Package pdftex.def Info: graphics/screenshot008.png  used on input line 228.
+Package pdftex.def Info: graphics/screenshot008.png  used on input line 226.
 (pdftex.def)             Requested size: 122.91406pt x 89.37743pt.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 228--228
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 226--226
 [][] 
  []
 
@@ -2377,60 +2378,77 @@ File: ../РџСЂРѕРіСЂР°РјРјР°/test/test_main/tmp2/plot.jpg Graphic file (type jpg
 Package pdftex.def Info: ../РџСЂРѕРіСЂР°РјРјР°/test/test_main/tmp2/plot.jpg  us
 ed on input line 263.
 (pdftex.def)             Requested size: 291.92444pt x 237.18497pt.
-
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 263--263
-[][] 
- []
-
-
-Overfull \vbox (9.21304pt too high) detected at line 263
- []
-
-[17
+ [17
 
  <../РџСЂРѕРіСЂР°РјРјР°/test/test_main/tmp2/plot.jpg>]
 <C:/Users/John/Desktop/MAN/plot.jpg, id=154, 1156.32pt x 794.97pt>
 File: C:/Users/John/Desktop/MAN/plot.jpg Graphic file (type jpg)
 <use C:/Users/John/Desktop/MAN/plot.jpg>
 Package pdftex.def Info: C:/Users/John/Desktop/MAN/plot.jpg  used on input line
- 271.
+ 270.
 (pdftex.def)             Requested size: 322.65529pt x 221.82587pt.
 
-Overfull \hbox (15.36542pt too wide) in paragraph at lines 271--271
+Overfull \hbox (15.36542pt too wide) in paragraph at lines 270--270
  [] 
  []
 
 [18
 
  <C:/Users/John/Desktop/MAN/plot.jpg>]
-<graphics/screenshot001.png, id=161, 292.09125pt x 233.37187pt>
+<graphics/screenshot011.png, id=161, 404.2302pt x 293.4162pt>
+File: graphics/screenshot011.png Graphic file (type png)
+<use graphics/screenshot011.png>
+Package pdftex.def Info: graphics/screenshot011.png  used on input line 278.
+(pdftex.def)             Requested size: 261.19826pt x 189.59897pt.
+ [19
+
+ <./graphics/screenshot011.png>]
+<C:/Users/John/Desktop/test1/plot.jpg, id=170, 1156.32pt x 939.51pt>
+File: C:/Users/John/Desktop/test1/plot.jpg Graphic file (type jpg)
+<use C:/Users/John/Desktop/test1/plot.jpg>
+Package pdftex.def Info: C:/Users/John/Desktop/test1/plot.jpg  used on input li
+ne 285.
+(pdftex.def)             Requested size: 322.65529pt x 262.15785pt.
+
+Overfull \hbox (15.36542pt too wide) in paragraph at lines 285--285
+ [] 
+ []
+
+
+Overfull \vbox (15.61124pt too high) detected at line 285
+ []
+
+[20
+
+ <C:/Users/John/Desktop/test1/plot.jpg>]
+<graphics/screenshot001.png, id=177, 292.09125pt x 233.37187pt>
 File: graphics/screenshot001.png Graphic file (type png)
 <use graphics/screenshot001.png>
-Package pdftex.def Info: graphics/screenshot001.png  used on input line 290.
+Package pdftex.def Info: graphics/screenshot001.png  used on input line 304.
 (pdftex.def)             Requested size: 119.84285pt x 95.75073pt.
 
-Underfull \hbox (badness 1014) in paragraph at lines 290--290
+Underfull \hbox (badness 1014) in paragraph at lines 304--304
 []\T2A/cmr/m/up/10.95 Unit-тестирование. До-стиг-ну-то
  []
 
 
-Underfull \hbox (badness 3209) in paragraph at lines 290--290
+Underfull \hbox (badness 3209) in paragraph at lines 304--304
 []\T2A/cmr/m/up/10.95 Эксплуатационное при-ј-моч-ное
  []
 
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 290--290
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 304--304
 [][] 
  []
 
-[19
+[21
 
  <./graphics/screenshot001.png (PNG copy)>]
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 300--300
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 314--314
 [][] 
  []
 
-[20
+[22
 
 ]
 \tf@nav=\write7
@@ -2457,10 +2475,10 @@ Package logreq Info: Writing requests to 'document.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36797 strings out of 479173
- 693689 string characters out of 2854644
- 1528898 words of memory out of 3000000
- 53503 multiletter control sequences out of 15000+600000
+ 36829 strings out of 479173
+ 694606 string characters out of 2854644
+ 1527898 words of memory out of 3000000
+ 53529 multiletter control sequences out of 15000+600000
  465065 words of font info for 123 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,13n,126p,743b,1693s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2480,9 +2498,9 @@ ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/John/AppData/Local/
 Programs/MiKTeX/fonts/type1/public/newtx/txexs.pfb><C:/Users/John/AppData/Local
 /Programs/MiKTeX/fonts/type1/public/newtx/txmiaX.pfb><C:/Users/John/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/public/newtx/txsys.pfb>
-Output written on document.pdf (20 pages, 1646753 bytes).
+Output written on document.pdf (22 pages, 2221909 bytes).
 PDF statistics:
- 473 PDF objects out of 1000 (max. 8388607)
- 41 named destinations out of 1000 (max. 500000)
- 128 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 491 PDF objects out of 1000 (max. 8388607)
+ 45 named destinations out of 1000 (max. 500000)
+ 138 words of extra memory for PDF output out of 10000 (max. 10000000)
 
